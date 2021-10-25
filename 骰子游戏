@@ -25,7 +25,7 @@ int main()
 	  if(victory1>victory2)
 	   {
 	    printf("player1 win\n");}
-	 else if(victory2<victory1)
+	 else if(victory1<victory2)
 	 { printf("player2 win\n");} 
 	   else{ 
 	   printf("平局"); 
