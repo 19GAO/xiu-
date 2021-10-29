@@ -1,5 +1,5 @@
 #include<stdio.h>
-int yisi(float i,int flage)//i表示温度，cough表示是否咳嗽。 
+int yisi(float i,int flage)//i表示温度，flage表示是否咳嗽。 
 {
 	if(i>=37.3&&flage==1)
 	return 1;
