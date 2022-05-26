@@ -62,6 +62,10 @@ void SetScore(vector<Student>& stu)
 		}
 		int evr = sum / d.size();
 		it->_Ascore = evr;
+		if(sum!=0)
+		{
+			sum = 0;
+		}
 	}
 }
 //输出平均值
